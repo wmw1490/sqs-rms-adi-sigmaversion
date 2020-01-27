@@ -1,0 +1,114 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "5edbff2d-fa5f-4135-8831-ec6d15cd9fc1": {
+        "id": "5edbff2d-fa5f-4135-8831-ec6d15cd9fc1",
+        "parent": null,
+        "name": "sqs-rms-adi-sigmaversion",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "86a8ac2b-dd9d-4a01-bf8a-f30ce13fbcdf",
+          "9cd8c0d9-92bd-4e6f-80b1-e95d45abceb1",
+          "78ae6c1b-4337-426c-881b-001807e689d3"
+        ],
+        "isRemovable": false,
+        "filePath": "sqs-rms-adi-sigmaversion"
+      },
+      "86a8ac2b-dd9d-4a01-bf8a-f30ce13fbcdf": {
+        "id": "86a8ac2b-dd9d-4a01-bf8a-f30ce13fbcdf",
+        "parent": "5edbff2d-fa5f-4135-8831-ec6d15cd9fc1",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "sqs-rms-adi-sigmaversion/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "9cd8c0d9-92bd-4e6f-80b1-e95d45abceb1": {
+        "id": "9cd8c0d9-92bd-4e6f-80b1-e95d45abceb1",
+        "parent": "5edbff2d-fa5f-4135-8831-ec6d15cd9fc1",
+        "name": "sqs-rms-adi.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "sqs-rms-adi-sigmaversion/sqs-rms-adi.py",
+        "config": {
+          "runtime": "python3.6",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 512,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "78ae6c1b-4337-426c-881b-001807e689d3": {
+        "id": "78ae6c1b-4337-426c-881b-001807e689d3",
+        "parent": "5edbff2d-fa5f-4135-8831-ec6d15cd9fc1",
+        "name": "__init__.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "sqs-rms-adi-sigmaversion/__init__.py"
+      }
+    },
+    "rootNode": "5edbff2d-fa5f-4135-8831-ec6d15cd9fc1",
+    "openFiles": [
+      "86a8ac2b-dd9d-4a01-bf8a-f30ce13fbcdf",
+      "9cd8c0d9-92bd-4e6f-80b1-e95d45abceb1"
+    ],
+    "currentFileId": "9cd8c0d9-92bd-4e6f-80b1-e95d45abceb1",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      },
+      {
+        "lambdaId": "9cd8c0d9-92bd-4e6f-80b1-e95d45abceb1",
+        "varKey": "PYTHONPATH",
+        "varValue": "/var/runtime:/var/task/sqs-rms-adi-sigmaversion",
+        "shouldPersist": true,
+        "displayOnly": false,
+        "editable": true
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "sqs-rms-adi-sigmaversion",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-2",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1580109458683
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "sqs-rms-adi-sigmaversion",
+      "url": "https://github.com/wmw1490/sqs-rms-adi-sigmaversion"
+    }
+  }
+}
